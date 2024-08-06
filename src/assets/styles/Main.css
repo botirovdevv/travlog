@@ -60,7 +60,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgb(38, 63, 96);
+  background-color: #5d50c6;
   border-radius: 10px;
 }
 
@@ -397,4 +397,111 @@ body.scroll {
 }
 .banner-button:hover svg path {
   fill: #fff;
+}
+
+.about {
+  padding: 150px 0;
+}
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: unset;
+  gap: 20px;
+}
+@media screen and (max-width: 1200px) {
+  .about-content {
+    flex-direction: column;
+  }
+}
+.about-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 810px) {
+  .about-info {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 810px) {
+  .about-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+.about-img {
+  width: 90px;
+  height: 78px;
+}
+.about-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 0%;
+  letter-spacing: 0.02em;
+  color: #f85e9f;
+}
+@media screen and (max-width: 1200px) {
+  .about-text {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+.about-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 39px;
+  line-height: 130%;
+  color: #252b42;
+  padding: 17px 0;
+  width: 400px;
+}
+@media screen and (max-width: 1200px) {
+  .about-title {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+.about-subtitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 138%;
+  letter-spacing: 0.01em;
+  color: rgba(25, 24, 37, 0.75);
+  width: 300px;
+}
+@media screen and (max-width: 1200px) {
+  .about-subtitle {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+.about-info_title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 133%;
+  letter-spacing: 0em;
+  color: #252b42;
+  padding: 12px 0;
+}
+.about-info_subtitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: rgba(25, 24, 37, 0.75);
+  width: 244px;
+}
+@media screen and (max-width: 810px) {
+  .about-info_subtitle {
+    margin: 0 auto;
+    text-align: center;
+  }
 }/*# sourceMappingURL=Main.css.map */
