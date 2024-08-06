@@ -14,7 +14,7 @@ export const linksData = [
     {
         id: 3,
         to: "/",
-        title: "Fikrlar"
+        title: "Manzillar"
     },
 
     {
